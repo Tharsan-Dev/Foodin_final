@@ -461,3 +461,143 @@ button:hover{
     box-shadow: 0 0 20px rgb(36, 24, 24);
     border: 10px solid #A82C4B;
 }
+
+/* Mobile devices (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+   *{
+    margin: auto;
+    padding: 0px;
+   }
+   
+    /* Header */
+   .header {
+      height: 80px;
+      padding: 10px;
+    }
+   .logo {
+      width: 120px;
+      height: 100px;
+    }
+   .navbar {
+      flex-direction: row;
+      align-items: right;
+    }
+    li {
+      margin-right: 10px;
+    }
+  
+    /* Home content */
+   .home-content {
+      padding: 20px;
+      max-width: 100%;
+    }
+   .col-1 {
+      padding: 20px;
+      margin-top: -190px;
+    }
+    h3 {
+      font-size: 40px;
+    }
+   .ex {
+      font-size: 14px;
+    }
+    button {
+      padding: 10px 15px;
+    }
+  
+    /* Row and columns */
+   .row {
+      flex-direction: column;
+    }
+   .col {
+      width: 100%;
+    }
+   .bg-1 {
+      height: 500px;
+      width: 100%;
+      margin-bottom: 150px;
+      padding-right: 600px;
+      
+    }
+  
+    /* Main container */
+   .main-container {
+      flex-direction: column;
+      gap: 20px;
+      height: auto;
+      padding-left: 320px;
+    }
+   .same {
+      width: 100%;
+    }
+    .img-1 {
+        height: 500px;
+        width: 100%;
+        padding-right: 80px;
+      }
+    
+    /* Row 2 and 3 */
+   .row-2,.row-3 {
+      flex-direction: column;
+    }
+    .row-3 {
+        flex-direction: column;
+      }
+   .col-2,.col-3 {
+      width: 100%;
+    }
+  
+    /* Food choice */
+    #Food-Choise {
+      padding: 20px;
+    }
+   .order-list {
+      grid-template-columns: repeat(1, 1fr);
+    }
+   .order-list div {
+      padding: 20px;
+    }
+    .food {
+        height: 1000px;
+        width: 900px;
+        padding-right: 20px;
+    }
+    /* Learn and offer */
+   .learn {
+      flex-direction: column;
+      gap: 20px;
+    }
+   .offer {
+      padding: 20px;
+    }
+    .text-block{
+        padding: 20px;
+    }
+    .container-1{
+        padding: 20px;
+        margin-top: 180px;
+    }
+  
+    /* Footer */
+    footer {
+      padding: 150px;
+    }
+   .social-link {
+      padding-left: 0;
+    }
+   .social-info {
+      padding-left: 0;
+      
+    }
+  }
+  
+  /* Tablet devices (max-width: 1024px) */
+  @media only screen and (max-width: 1024px) {
+    /* Adjustments for tablet devices */
+  }
+  
+  /* Desktop devices (min-width: 1025px) */
+  @media only screen and (min-width: 1025px) {
+    /* Adjustments for desktop devices */
+  }
+  
