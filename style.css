@@ -457,3 +457,7 @@ footer h5 {
     color: #ffffff;
     text-align: center;
 }
+button:hover{
+    box-shadow: 0 0 20px rgb(36, 24, 24);
+    border: 10px solid #A82C4B;
+}
